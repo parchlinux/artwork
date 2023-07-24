@@ -1,13 +1,13 @@
 # Maintainer: Komeil Parseh <ahmdparsh129@gmail.com>
 
-pkgname=parch-os-wallpapers
-pkgver=0.0.1
+pkgname=parch-wallpapers
+pkgver=0.0.2
 pkgrel=1
-pkgdesc='parch-os wallpapers'
+pkgdesc='parch wallpapers'
 arch=("any")
-url="https://github.com/parch-os/artwork"
+url="https://github.com/parchlinux/artwork"
 license=("BSD-3-Clause")
-source=("git+https://github.com/parch-os/artwork")
+source=("git+https://github.com/parchlinux/artwork")
 provides=("${pkgname%}")
 conflict=("${pkgname%}")
 md5sums=('SKIP')
