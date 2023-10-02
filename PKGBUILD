@@ -1,8 +1,8 @@
 # Maintainer: Komeil Parseh <ahmdparsh129@gmail.com>
 
 pkgname=parch-wallpapers
-pkgver=0.0.2
-pkgrel=1
+pkgver=0.0.3
+pkgrel=0
 pkgdesc='parch wallpapers'
 arch=("any")
 url="https://github.com/parchlinux/artwork"
