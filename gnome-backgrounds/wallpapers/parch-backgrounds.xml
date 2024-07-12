@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+  <wallpaper deleted="false">
+    <name>Parch Gnome</name>
+    <filename>/usr/share/backgrounds/parch/BPL.svg</filename>
+    <filename-dark>/usr/share/backgrounds/parch/BPD.svg</filename-dark>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#241f31</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Parch Gnome Light</name>
+    <filename>/usr/share/backgrounds/parch/BPL.svg</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#241f31</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Parch Gnome Dark</name>
+    <filename>/usr/share/backgrounds/parch/BPD.svg</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#0B0021</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+</wallpapers>

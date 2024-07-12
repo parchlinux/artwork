@@ -1,0 +1,20 @@
+# Maintainer: Parch Linux Distribution Team <feedback@parchlinux.ir>
+
+pkgname=parch-gnome-backgrounds
+_pkgname=wallpapers
+pkgver=1.0.5
+pkgrel=1
+pkgdesc='Parch Linux Gnome Wallpapers'
+arch=('any')
+url="https://github.com/parchlinux/artwork"
+license=('GPL')
+source=("wallpapers.zip")
+sha256sums=('SKIP')
+
+package() {
+    cd "wallpapers"
+    install -d "${pkgdir}/usr/share/backgrounds/parch/"
+    install -Dm 644 *.png "${pkgdir}/usr/share/backgrounds/parch/"
+    install -Dm 644 *.svg "${pkgdir}/usr/share/backgrounds/parch/"
+    install -Dm 644 parch-backgrounds.xml "${pkgdir}/usr/share/gnome-background-properties/parch-backgrounds.xml"
+}

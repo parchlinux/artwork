@@ -1,0 +1,9 @@
+# pack-refs with: peeled fully-peeled sorted 
+72220cb7b368d15d2c1fa9633c1c7d96d73cda73 refs/heads/AEK84-patch-1
+1c8267544d6678c187bbca321d036f389d5ed9e5 refs/heads/main
+930c30e53ed15ab786e9ff697bba6aa522712f94 refs/pull/1/head
+8d61477fdfa537246c64465553787b1f4155e634 refs/pull/2/head
+fb3934002dc15cc60c9c18aa0aa58a5b7276e687 refs/pull/3/head
+72220cb7b368d15d2c1fa9633c1c7d96d73cda73 refs/pull/4/head
+5611ca99be827d36f9615b4efcd616da7bd2c5c0 refs/pull/4/merge
+f9fc0f6e6e6935111e009f6e9042d3542af22827 refs/tags/1.0.0
