@@ -1,0 +1,18 @@
+# Maintainer: Parch Linux Distribution Team <feedback@parchlinux.ir>
+
+pkgname=parch-modern-backgrounds
+pkgver=1.0.5
+pkgrel=1
+pkgdesc='Parch Linux Modern Wallpapers'
+arch=('any')
+url="https://github.com/parchlinux/parch-backgrounds"
+license=('GPL')
+source=("wallpapers.zip")
+sha256sums=('SKIP')
+
+package() {
+    cd "wallpapers"
+    install -d "${pkgdir}/usr/share/wallpapers/modern/"
+    install -Dm 644 *.jpg "${pkgdir}/usr/share/wallpapers/modern/"
+    install -Dm 644 modern-backgrounds.xml "${pkgdir}/usr/share/gnome-background-properties/modern-backgrounds.xml"
+}

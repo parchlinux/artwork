@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+  <wallpaper deleted="false">
+    <name>modern wallpaper 1</name>
+    <filename>/usr/share/wallpapers/modern/modern-1.jpg</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#241f31</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>modern wallpaper 2</name>
+    <filename>/usr/share/wallpapers/modern/modern-2.jpg</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#0B0021</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+    <wallpaper deleted="false">
+    <name>modern wallpaper 3</name>
+    <filename>/usr/share/wallpapers/modern/modern-3.jpg</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#241f31</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>modern wallpaper 4</name>
+    <filename>/usr/share/wallpapers/modern/modern-4.jpg</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#0B0021</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+    <wallpaper deleted="false">
+    <name>modern wallpaper 5</name>
+    <filename>/usr/share/wallpapers/modern/modern-5.jpg</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#241f31</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>modern wallpaper 6</name>
+    <filename>/usr/share/wallpapers/modern/modern-6.jpg</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#0B0021</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+</wallpapers>
