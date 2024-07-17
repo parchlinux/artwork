@@ -1,0 +1,25 @@
+# Maintainer: Sohrab Behdani <behdanisohrab@gmail.com>
+pkgname=parch-wallpapers
+pkgver=0.0.5
+pkgrel=0
+pkgdesc='Wallpapers for Parch Linux'
+arch=("any")
+url="https://github.com/parchlinux/artwork"
+license=("BSD-3-Clause")
+source=("git+https://github.com/parchlinux/artwork")
+provides=("${pkgname}")
+conflicts=("${pkgname}")
+md5sums=('SKIP')
+
+package() {
+    cd "$srcdir/artwork/Wallpaper"
+    
+    # Create the base destination directory
+    install -d "${pkgdir}/usr/share/wallpapers/"
+    
+    # Install all image files from all subdirectories
+    find . -type f \( -name "*.png" -o -name "*.jpg" -o -name "*.jpeg" \) -exec install -Dm644 {} "${pkgdir}/usr/share/wallpapers/{}" \;
+    
+    # License
+    install -Dm644 ../LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+}
